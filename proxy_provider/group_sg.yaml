@@ -1,0 +1,17 @@
+proxies:
+  - name: HE
+    server: sg1-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: xxx
+    skip-cert-verify: true
+    sni: bug
+    udp: true
+  - name: AMP
+    server: sg-atha.bonds.id
+    port: 443
+    type: trojan
+    password: xxx
+    skip-cert-verify: true
+    sni: bug
+    udp: true
