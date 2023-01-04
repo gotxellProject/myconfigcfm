@@ -1,0 +1,9 @@
+proxies:
+  - name: SG Weekly New
+    server: trojan1.udpgw.com
+    port: 443
+    type: trojan
+    password: xxx-xxx-xxx-xxx-xxx
+    skip-cert-verify: true
+    sni: isibug.com
+    udp: true
