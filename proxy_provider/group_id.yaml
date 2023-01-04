@@ -1,0 +1,17 @@
+proxies:
+  - name: Herza
+    server: idtj-herza.bonds.id
+    port: 443
+    type: trojan
+    password: xxx
+    skip-cert-verify: true
+    sni: bug
+    udp: true
+  - name: IKD
+    server: idtj-ikd.bonds.id
+    port: 443
+    type: trojan
+    password: xxx
+    skip-cert-verify: true
+    sni: bug
+    udp: true
